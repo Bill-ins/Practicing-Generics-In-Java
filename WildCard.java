@@ -5,7 +5,7 @@ public class WildCard {
 
     List list;
 
-    /** The statement - '(List<? extends Number> list)', in the method parameter defines that the method will only accept the
+    /** The statement - '(List<? extends Number> list)', in the method parameter defines that the List in the parameter will only accept the
      *  argument of type Number; i.e. it will only accepts datatype that will extends Number class.
      *  '?' - This question mark sign is called the wild card
      *  The wild card feature only works with Lists */
